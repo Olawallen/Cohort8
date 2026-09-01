@@ -3,6 +3,8 @@ let name = "John";
 let age = 30;
 const city = "New York";
 
+const atlas_string = "mongodb+srv://<db_username>:MXxuumV98EEfCYA1@cluster0.xy9efig.mongodb.net/?appName=Cluster0"
+
 var ourName = "COHORT-8";
 let ourAge = 5;
 

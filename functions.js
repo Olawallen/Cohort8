@@ -47,8 +47,8 @@ console.log(addition(2, 3));
 //     return age >= 18
 // }
 
-let estherAge = ageCheck(30)
-// console.log(estherAge);
+
+
 
 function ageCheck(age){
     if(age<= 18){
@@ -57,6 +57,8 @@ function ageCheck(age){
         return "Buy one bottle for me Egbon!!"
     }
 }
+
+let estherAge = ageCheck(15)
 
 console.log(estherAge);
 
@@ -76,13 +78,13 @@ console.log(luckyNumber(number));
 //scope
 //global scope
 let score = 75;
-// function gradingSystem({
+// function gradingSystem(){
 //     if (score >= 50){
 //         return "PASSED!"
 //     }else{
 //         return "FAILED!!!"
 //     }
-// })
+// }
 
 //local scope
 function deliveryFee(){

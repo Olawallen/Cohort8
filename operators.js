@@ -4,7 +4,7 @@ let hasID = false;
 console.log(isAdult && hasID);
 console.log(isAdult || hasID);
 console.log(!isAdult);
-
+ 
 
 
 

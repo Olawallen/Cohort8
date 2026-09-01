@@ -29,6 +29,8 @@ if (gender === "female"){
  * }
  */
 
+//Parameters are expected values while arguments are actual values
+
 for (let i = 0; i<10; i++){
     console.log(i);    
 }
@@ -36,15 +38,15 @@ for (let i = 0; i<10; i++){
 let arrOfNames = ["james", "jane", "joe", "jim", "jess"]
 console.log(arrOfNames.length);
 
-for(let names = 0; names <arrOfNames.length; names++){
+for(let names = 0; names < arrOfNames.length; names++){
     console.log("TECHCRUSH" + arrOfNames[names]);    
 }
 
-for(let x=0; x<36; x++){
+for(let x=0; x<36; x++){ 
     console.log(x * 2);    
 } 
 
-//while 
+//while  
 
 // while(condition){
 //     //code to repeat;
@@ -53,15 +55,16 @@ for(let x=0; x<36; x++){
   
 let loginAttempt = 1
 while(loginAttempt <=5){
-    console.log("attempt" + loginAttempt);
+    console.log("attempts" + loginAttempt);
+                    //or
+    // console.log(`attempt number ${loginAttempt}`);
     loginAttempt++    
 }
 
 
+let scores = [20, 12 ,25 , 15];
 
-// let scores = [20, 12 ,25 , 15];
-
-// for(let newScore = 0; newScore < scores.length; newScore++){
-//     console.log(scores[newScore] + 20);    
-// }
+for(let newScore = 0; newScore < scores.length; newScore++){
+    console.log(scores[newScore] + 20);    
+}
 
