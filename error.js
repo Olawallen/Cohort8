@@ -74,6 +74,6 @@ function registerStudent(name, age) {
     } 
 }
 
-registerStudent("Olawale Oyewunmi", 30)
+registerStudent("Olawale Oyewunmi", 30) 
 registerStudent("", 22)
 registerStudent("Kemi", 12)
